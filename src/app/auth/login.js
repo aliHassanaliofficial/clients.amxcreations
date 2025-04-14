@@ -22,7 +22,7 @@ function Authlogin() {
     }, 1000);
 
     setTimeout(function () {
-        if (userIdValue === "2548" && passwordValue === "01007001305" || userIdValue === "2547" && passwordValue === "01006990989") {
+        if (userIdValue === "02548" && passwordValue === "01007001305" || userIdValue === "02547" && passwordValue === "01006990989") {
         alert("This user is not active yet. Please contact the administrator.");
         } else {
         alert("Invalid credentials. Please try again.");
