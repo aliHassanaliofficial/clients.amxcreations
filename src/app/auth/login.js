@@ -14,8 +14,6 @@ function Authlogin() {
     setTimeout(function () {
         if (userIdValue === "02548" && passwordValue === "01007001305" || userIdValue === "02547" && passwordValue === "01006990989") {
         alert("This user is not active yet. Please contact the administrator.");
-        } else {
-        alert("Invalid credentials. Please try again.");
         }
     }, 1000);
     }
